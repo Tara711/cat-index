@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+  padding: 20px 40px;
+}
+nav .header {
+  float: left;
+  margin-left: 20px;
+  text-decoration: underline;
+}
+nav .link {
+  float: right;
+  margin-left: 300px;
+  color: black;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  padding-right: 40px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+}
+.main-folder {
+  height: 100vh;
+  background-image: url(./img/london.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.title {
+  text-align: center;
+  font-size: 30px;
+}
+button {
+  padding: 12px 20px;
+  border-radius: 13px;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  left: 40%;
+  background-color: cyan;
+}
+/* About */
+.about {
+  height: 80vh;
+  width: 100%;
+  background-image: url(/img//annapurna.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* Services */
+.services {
+  text-align: center;
+  background-image: url(/img/lake.jpg);
+  height: 100vh;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.services h1 {
+  padding-block: 10px;
+}
+.services li {
+  padding-block: 5px;
+  font-weight: bold;
+  font-size: 17px;
+  border-bottom: 1px solid black;
+}
+/* Contact */
+.contact {
+  background-image: url(/img/ilam1.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.form-book {
+  background-image: url(/img/lake.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 165vh;
+  position: relative;
+}
+.form-list {
+  height: 100%;
+  width: 500px;
+  background-color: skyblue;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  text-align: center;
+  color: black;
+  font-weight: 800;
+}
+.form-list h1 {
+  margin-block: 30px;
+}
+.form-list div {
+  padding-block: 5px;
+}
+.form-list div label {
+  font-size: 20px;
+}
+.form-list div input {
+  font-size: 15px;
+  padding: 5px 10px;
+}
